@@ -3,3 +3,18 @@ Hello this is my JavaScript project!
 
 Now some more changes.
 Try to change
+
+
+/*
+In a separate file, write a server that accepts
+two routes
+
+/home-page
+/about-page
+
+And gives back the contents of two different HTML
+files.
+
+You will need to use the fs and http modules
+
+*/

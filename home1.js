@@ -3,7 +3,7 @@
 const http = require('http');
 const fs = require('fs');
 
-http.createServer((req, res) => {
+const server = http.createServer((req, res) => {
 
   if(req.url === '/home-page'){
     fs.readFile('home-page.html', (e, r) => {
@@ -20,4 +20,5 @@ http.createServer((req, res) => {
   else{
     res.end();
   }
-}).listen(8080);
+});
+server.listen(8080);
